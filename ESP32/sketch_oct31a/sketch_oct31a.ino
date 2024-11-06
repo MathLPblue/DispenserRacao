@@ -4,8 +4,8 @@
 #include <ESP32Servo.h>
 #include <time.h>
 
-const char* ssid = "Mirian"; 
-const char* password = "16202810";
+const char* ssid = "PetFeeder"; 
+const char* password = "12345678";
 const char* mqtt_server = "9706b5e8a068456a8a8cf6cda93d5c94.s1.eu.hivemq.cloud"; 
 const int mqtt_port = 8883; 
 const char* mqtt_user = "MathLPBlue"; 
