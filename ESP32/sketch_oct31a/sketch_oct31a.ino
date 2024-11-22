@@ -4,12 +4,13 @@
 #include <ESP32Servo.h>
 #include <time.h>
 
-const char* ssid = "PetFeeder"; 
-const char* password = "12345678";
-const char* mqtt_server = "9706b5e8a068456a8a8cf6cda93d5c94.s1.eu.hivemq.cloud"; 
-const int mqtt_port = 8883; 
-const char* mqtt_user = "MathLPBlue"; 
-const char* mqtt_password = "162010"; 
+
+const char* ssid = "nome_wifi"; 
+const char* password = "senha_wifi";
+const char* mqtt_server = "url"; 
+const int mqtt_port = porta; 
+const char* mqtt_user = "user_mqtt"; 
+const char* mqtt_password = "senhar_mqtt"; 
 
 WiFiClientSecure espClient;
 PubSubClient client(espClient);

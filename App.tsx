@@ -6,9 +6,9 @@ import Imagens from './src/imgs/imagens';
 import DataTableCss from './src/css/DataTable';
 import HomeCss from './src/css/HomeCs';
 
-const MQTT_BROKER_URL = "wss://9706b5e8a068456a8a8cf6cda93d5c94.s1.eu.hivemq.cloud:8884/mqtt"; 
+const MQTT_BROKER_URL = "url_broker"; 
 const CLIENT_ID = `clientId-${Math.floor(Math.random() * 1000)}`;
-const MQTT_TOPIC = "petfeeder/command";
+const MQTT_TOPIC = "petfeeder/command"; 
 
 export default function App() {
   const client = useRef<Client | null>(null);
